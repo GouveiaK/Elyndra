@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Germania+One&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,26 +9,31 @@
     font-style: normal;
     text-align: justify;
 }
-.img-logo{
+
+.img-logo {
     height: 100px;
     width: 100px;
     border-radius: 50px;
     transition: all 2s ease;
-    
+
 }
-.img-logo:hover{
+
+.img-logo:hover {
     transform: rotateZ(360deg);
     cursor: pointer;
-    box-shadow: 0 5px 20px 10px  rgba(250, 238, 128, 0.555);
+    box-shadow: 0 5px 20px 10px rgba(250, 238, 128, 0.555);
 }
-.nav-search{
+
+.nav-search {
     padding: 20px;
 }
-.container1{
+
+.container1 {
     height: 40vh;
     box-shadow: 0 15px 25px rgba(37, 32, 16, 0.534);
 }
-.menu-esquerdo{
+
+.menu-esquerdo {
     background-color: rgb(19, 17, 17);
     color: rgb(207, 205, 205);
     width: 50px;
@@ -37,7 +43,8 @@
     font-size: 20px;
     align-items: center;
 }
-.lista-lateral{
+
+.lista-lateral {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -47,20 +54,25 @@
     margin-bottom: 0;
     overflow: hidden;
 }
-li{
+
+li {
     padding: 10px 15px;
 }
-i{
+
+i {
     color: #c4c2c2;
 }
-li:hover i{
+
+li:hover i {
     color: #fff;
 }
-li:hover{
+
+li:hover {
     color: #fff;
     background-color: black;
 }
-.info{
+
+.info {
     display: flex;
     gap: 1rem;
     color: #4f2621;
@@ -68,34 +80,58 @@ li:hover{
     height: 57vh;
     align-items: center;
 }
-p{
+
+.info-inicial {
+    width: 110%;
+    padding: 10px;
+    text-align: center;
+}
+.info-inicial h2{
+    font-size: 2vw;
+}
+
+p {
     padding: 10px;
 }
-.text-bem-vindo{
-    font-size: 5vw;
+
+.text-bem-vindo {
+    font-size: 4vw;
 }
-#img-alterar{
+
+#img-alterar {
     margin: 10px;
-    width: 800px;
-    height: 290px;
+    width: 900px;
+    height: 50vh;
     background-image: url(imgs/elyndra/principal.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 20px;
+    transition: all 1s ease;
     box-shadow: 0 5px 15px rgba(29, 28, 24, 0.603);
 }
-.rodape{
+
+.rodape {
     font-size: 13px;
     text-align: center;
     background-color: rgb(19, 17, 17);
     color: rgb(207, 205, 205);
     font-style: italic;
 }
-@media screen and (max-width: 800px){
-    .img-logo{
-        height: 50px;
-        width: 50px;
-        
+.container1{
+    transition: all 1s ease;
+}
+@media screen and (max-width: 800px) {
+    .img-logo {
+        height: 70px;
+        width: 70px;
     }
+    #img-alterar {
+        width: 90vw;
+        height: 30vh;
+    }
+    .container1 {
+        height: 25vh;
+    }
+   
 }
