@@ -29,29 +29,35 @@
     padding: 40px;
 
 }
-.slider{
+
+.slider {
     margin: 0 auto;
     width: 50vw;
     overflow: hidden;
     border-radius: 20px;
 }
-.slides{
+
+.slides {
     width: 500%;
     height: auto;
     display: flex;
-    
+
 }
-.slides input{
+
+.slides input {
     display: none;
 }
-.slide{
+
+.slide {
     width: 25%;
 }
-.slide img{
+
+.slide img {
     width: 50vw;
-   
+
 }
-.navigation-manual{
+
+.navigation-manual {
     position: absolute;
     width: 50vw;
     display: flex;
@@ -59,39 +65,48 @@
     gap: 30px;
     margin-top: 10px;
 }
-.manual-btn{
+
+.manual-btn {
     border: 2px solid #40D3DC;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
-.manual-btn:hover{
+
+.manual-btn:hover {
     background-color: #fff;
 }
-#radio1:checked ~ .first{
+
+#radio1:checked~.first {
     margin-left: 0;
 }
-#radio2:checked ~ .first{
+
+#radio2:checked~.first {
     margin-left: -25%;
 }
-#radio3:checked ~ .first{
+
+#radio3:checked~.first {
     margin-left: -50%;
 }
-#radio4:checked ~ .first{
+
+#radio4:checked~.first {
     margin-left: -75%;
 }
-#radio5:checked ~ .first{
+
+#radio5:checked~.first {
     margin-left: -100%;
 }
-.navigation-auto div{
+
+.navigation-auto div {
     border: 2px solid #40D3DC;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
 }
-.navigation-auto{
+
+.navigation-auto {
     position: absolute;
     width: 50vw;
     display: flex;
@@ -99,18 +114,73 @@
     gap: 30px;
     margin-top: 10px;
 }
-#radio1:checked ~ .navigation-auto .auto-btn1{
+
+#radio1:checked~.navigation-auto .auto-btn1 {
     background-color: #fff;
 }
-#radio2:checked ~ .navigation-auto .auto-btn2{
+
+#radio2:checked~.navigation-auto .auto-btn2 {
     background-color: #fff;
 }
-#radio3:checked ~ .navigation-auto .auto-btn3{
+
+#radio3:checked~.navigation-auto .auto-btn3 {
     background-color: #fff;
 }
-#radio4:checked ~ .navigation-auto .auto-btn4{
+
+#radio4:checked~.navigation-auto .auto-btn4 {
     background-color: #fff;
 }
-#radio5:checked ~ .navigation-auto .auto-btn5{
+
+#radio5:checked~.navigation-auto .auto-btn5 {
     background-color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+
+    .slider {
+        margin: 0 auto;
+        width: 80vw;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    .slides {
+        width: 500%;
+        height: auto;
+        display: flex;
+
+    }
+
+    .slides input {
+        display: none;
+    }
+
+    .slide {
+        width: 25%;
+    }
+
+    .slide img {
+        width: 80vw;
+    }
+
+    .navigation-manual {
+        position: absolute;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+        left: 25%;
+    }
+
+    .navigation-auto {
+        position: absolute;
+        width: 50vw;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+        left: 25%;
+    }
+
 }

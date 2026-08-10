@@ -86,7 +86,8 @@ li:hover {
     padding: 10px;
     text-align: center;
 }
-.info-inicial h2{
+
+.info-inicial h2 {
     font-size: 2vw;
 }
 
@@ -118,20 +119,65 @@ p {
     color: rgb(207, 205, 205);
     font-style: italic;
 }
-.container1{
+
+.container1 {
     transition: all 1s ease;
 }
+
 @media screen and (max-width: 800px) {
     .img-logo {
         height: 70px;
         width: 70px;
     }
+
     #img-alterar {
         width: 90vw;
         height: 30vh;
     }
+
     .container1 {
         height: 25vh;
     }
-   
+
+}
+
+@media screen and (max-width: 500px) {
+    #img-alterar {
+        position: absolute;
+        bottom: 15px;
+        width: 200px;
+        height: 150px;
+        left: 23%;
+    }
+
+    .pagina1 {
+        font-size: 24px;
+    }
+
+    .info-inicial h2 {
+        font-size: 13px;
+    }
+
+    .info-inicial {
+        margin-top: -130px;
+    }
+
+    .info {
+        height: 402px;
+    }
+
+    .menu-esquerdo {
+        height: 402px;
+    }
+
+    .lista-lateral {
+        gap: 2rem;
+    }
+
+    .text-bem-vindo {
+        font-size: 24px;
+    }
+
+    
+    
 }

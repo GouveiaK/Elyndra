@@ -18,7 +18,7 @@
             height: 57vh;
             align-items: center;
         }
-        
+
         .container1 {
             background: url(imgs/personagens/deuses.jpeg);
             background-size: cover;
@@ -26,6 +26,40 @@
 
         .index-info {
             background: url(imgs/imgs/fundo-index.png) no-repeat center/ cover;
+        }
+
+        @media screen and (max-width: 500px) {
+            #img-alterar {
+                position: absolute;
+                bottom: 15px;
+                width: 200px;
+                height: 150px;
+
+            }
+
+            .pagina1 {
+                font-size: 24px;
+            }
+
+            .info-inicial h2 {
+                font-size: 13px;
+            }
+
+            .info-inicial {
+                margin-top: -130px;
+            }
+
+            .info {
+                height: 402px;
+            }
+
+            .menu-esquerdo {
+                height: 402px;
+            }
+
+            .lista-lateral {
+                gap: 2rem;
+            }
         }
     </style>
 
@@ -35,7 +69,8 @@
     <div class="container1">
         <div class="nav-search">
             <figure class="logo">
-                <a href="index.html"><img class="img-logo" src="imgs/elyndra/img-logo.png" alt="logomarca contos de Elyndra.jpeg"></a>
+                <a href="index.html"><img class="img-logo" src="imgs/elyndra/img-logo.png"
+                        alt="logomarca contos de Elyndra.jpeg"></a>
             </figure>
         </div>
     </div>
@@ -45,8 +80,8 @@
                 <li title="História" data-bg="imgs/elyndra/livro.png"><a href="paginas/Elyndra/historia.html"><i
                             class="bi bi-book"></i></a></li>
 
-                <li data-bg="imgs/reinos/elyndra-mapa.png" title="Elyndra"><a
-                        href="paginas/Elyndra/elyndra.html"><i class="bi bi-key"></i></a></li>
+                <li data-bg="imgs/reinos/elyndra-mapa.png" title="Elyndra"><a href="paginas/Elyndra/elyndra.html"><i
+                            class="bi bi-key"></i></a></li>
 
                 <li data-bg="imgs/criaturas/tigre_com_asas2.jpeg" title="Criaturas"><a
                         href="paginas/Elyndra/criaturas.html"><i class="bi bi-slack"></i></a></li>
@@ -60,7 +95,9 @@
         </aside>
         <section class="info-inicial ">
             <h1 class="text-bem-vindo pagina1">Bem-Vindo a Etérion</h1>
-            <h2>"O lugar onde a magia e a aventura se encontram, onde reinos que acabavam de ascender caíram, onde a mágica e as leis andavam lado a lado, onde coisas terríveis aconteceram. Que a história que já foi contada, e que ainda será contada, seja revelada a você."
+            <h2>"O lugar onde a magia e a aventura se encontram, onde reinos que acabavam de ascender caíram, onde a
+                mágica e as leis andavam lado a lado, onde coisas terríveis aconteceram. Que a história que já foi
+                contada, e que ainda será contada, seja revelada a você."
             </h2>
             <h5>- Mello W.</h5>
         </section>
