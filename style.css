@@ -146,11 +146,7 @@ p {
 
 @media screen and (max-width: 500px) {
     #img-alterar {
-        position: absolute;
-        top: 370px;
-        width: 50%;
-        height: 25%;
-        left: 27%;
+        display: none;
     }
 
     .pagina1 {
@@ -181,6 +177,9 @@ p {
         font-size: 24px;
     }
 
-    
-    
+    .info{
+        background: url(imgs/personagens/fundo_cell.png) center / cover;
+    }
+
+
 }

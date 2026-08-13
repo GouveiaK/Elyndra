@@ -9,20 +9,33 @@
     <link rel="shortcut icon" href="../../imgs/favicon_icon/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../../paginas/Elyndra/criaturas.css">
     <style>
+        .info-personagens {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            background-color: #f8f7ef;
+        }
+
+        .slider {
+            height: 350px;
+        }
+
         .container1 {
             background-image: url(../../imgs/personagens/reis.jpeg);
             background-repeat: no-repeat;
             background-size: 100% 240%;
         }
 
-        .personagens-info {
-            background: url(../../imgs/personagens/reis.png) center / cover;
-        }
-
         @media screen and (max-width: 500px) {
-            #img-alterar {
-                background: url(../../imgs/personagens/personagens.jpeg) center / cover;
+            .navigation-manual {
+                margin-top: 320px;
+            }
+
+            .navigation-auto {
+                margin-top: 320px;
             }
         }
     </style>
@@ -66,6 +79,49 @@
         </section>
         <div id="img-alterar"></div>
     </div>
+    <section class="info-personagens">
+        <div class="slider">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+
+
+                <div class="slide first">
+                    <img src="../../imgs/personagens/p1.jpeg" alt="Personagem 1">
+                </div>
+                <div class="slide">
+                    <img src="../../imgs/personagens/p2.jpeg" alt="Personagem 2">
+                </div>
+                <div class="slide">
+                    <img src="../../imgs/personagens/p3.jpeg" alt="Personagem 3">
+                </div>
+                <div class="slide">
+                    <img src="../../imgs/personagens/p4.jpeg" alt="Personagem 4">
+                </div>
+                <div class="slide">
+                    <img src="../../imgs/personagens/p5.jpeg" alt="Personagem 5">
+                </div>
+
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                </div>
+            </div>
+    </section>
     <footer class="rodape">Criado por Gouveia K. S.</footer>
     <script src="../../script.js"></script>
 </body>

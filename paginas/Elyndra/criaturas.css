@@ -27,7 +27,7 @@
     align-items: center;
     justify-content: center;
     padding: 40px;
-
+    background-color: #f8f7ef;
 }
 
 .slider {
@@ -148,7 +148,6 @@
         width: 500%;
         height: auto;
         display: flex;
-
     }
 
     .slides input {
@@ -168,8 +167,8 @@
         width: 50vw;
         display: flex;
         justify-content: center;
-        gap: 10px;
-        margin-top: 10px;
+        gap: 15px;
+        margin-top: 240px;
         left: 25%;
     }
 
@@ -178,13 +177,10 @@
         width: 50vw;
         display: flex;
         justify-content: center;
-        gap: 10px;
-        margin-top: 10px;
+        gap: 15px;
+        margin-top: 240px;
         left: 25%;
     }
 
-    #img-alterar {
-        background: url(../../imgs/criaturas/tigre_com_asas2.jpeg) center / cover;
-    }
 
 }
