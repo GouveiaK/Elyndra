@@ -183,4 +183,8 @@
         left: 25%;
     }
 
+    #img-alterar {
+        background: url(../../imgs/criaturas/tigre_com_asas2.jpeg) center / cover;
+    }
+
 }
