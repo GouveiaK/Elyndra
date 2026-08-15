@@ -180,6 +180,8 @@ p {
     .info{
         background: url(imgs/personagens/fundo_cell.png) center / cover;
     }
-
+    .container1{
+        height: 150px;
+    }
 
 }

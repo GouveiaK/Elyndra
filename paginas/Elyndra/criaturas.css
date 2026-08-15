@@ -24,163 +24,39 @@
 
 .info-criaturas {
     display: flex;
+   padding: 40px;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    background: url(../../imgs/reinos/elyndra-mapa.jpg);
+}
+.criatura{
+    height: 280px;
+    width: 210px;
+    background-color: rgb(19, 17, 17);
+    color: rgb(207, 205, 205);
+    transition: 0.4s all ease;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 40px;
-    background-color: #f8f7ef;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
-.slider {
-    margin: 0 auto;
-    width: 50vw;
-    overflow: hidden;
-    border-radius: 20px;
-}
-
-.slides {
-    width: 500%;
-    height: auto;
-    display: flex;
-
-}
-
-.slides input {
-    display: none;
-}
-
-.slide {
-    width: 25%;
-}
-
-.slide img {
-    width: 50vw;
-
-}
-
-.navigation-manual {
-    position: absolute;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
+.criatura img{
+    width: 90%;
     margin-top: 10px;
 }
-
-.manual-btn {
-    border: 2px solid #40D3DC;
+.name-card{
+    font-size: 20px;
     padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
 }
-
-.manual-btn:hover {
-    background-color: #fff;
+.info-criatura-card {
+    font-size: 12px;
+    margin-top: -25px;
 }
-
-#radio1:checked~.first {
-    margin-left: 0;
+.criatura:hover{
+    transform: scale(1.2);
 }
-
-#radio2:checked~.first {
-    margin-left: -25%;
-}
-
-#radio3:checked~.first {
-    margin-left: -50%;
-}
-
-#radio4:checked~.first {
-    margin-left: -75%;
-}
-
-#radio5:checked~.first {
-    margin-left: -100%;
-}
-
-.navigation-auto div {
-    border: 2px solid #40D3DC;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.navigation-auto {
-    position: absolute;
-    width: 50vw;
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 10px;
-}
-
-#radio1:checked~.navigation-auto .auto-btn1 {
-    background-color: #fff;
-}
-
-#radio2:checked~.navigation-auto .auto-btn2 {
-    background-color: #fff;
-}
-
-#radio3:checked~.navigation-auto .auto-btn3 {
-    background-color: #fff;
-}
-
-#radio4:checked~.navigation-auto .auto-btn4 {
-    background-color: #fff;
-}
-
-#radio5:checked~.navigation-auto .auto-btn5 {
-    background-color: #fff;
-}
-
 @media screen and (max-width: 500px) {
-
-    .slider {
-        margin: 0 auto;
-        width: 80vw;
-        overflow: hidden;
-        border-radius: 20px;
-    }
-
-    .slides {
-        width: 500%;
-        height: auto;
-        display: flex;
-    }
-
-    .slides input {
-        display: none;
-    }
-
-    .slide {
-        width: 25%;
-    }
-
-    .slide img {
-        width: 80vw;
-    }
-
-    .navigation-manual {
-        position: absolute;
-        width: 50vw;
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 240px;
-        left: 25%;
-    }
-
-    .navigation-auto {
-        position: absolute;
-        width: 50vw;
-        display: flex;
-        justify-content: center;
-        gap: 15px;
-        margin-top: 240px;
-        left: 25%;
-    }
-
 
 }
