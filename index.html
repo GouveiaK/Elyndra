@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elyndra | Um Mundo de Histórias</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <!--Logo-->
+        <a class="logo" href="index.html">ELYNDRA</a>
+
+        <!--Menu de Navegação-->
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="paginas/historia.html">História</a>
+            <a href="paginas/personagens.html">Personagens</a>
+            <a href="paginas/reinos.html">Reinos</a>
+            <a href="paginas/criaturas.html">Criaturas</a>
+            <a href="paginas/deuses.html">Deuses</a>
+        </nav>
+
+        <!--Área dos botões-->
+        <div class="acoes">
+            <!--Botão para trocar tema-->
+            <button id="btnModo" aria-label="Alterar tema">
+                <i class="bi bi-moon"></i>
+            </button>
+
+            <!--Botão do menu mobile-->
+            <button id="btnMenu" aria-label="Abrir menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <!--MAIN-->
+    <main>
+
+        <!--Banner principal-->
+        <section class="hero">
+            <div class="hero-conteudo">
+
+                <p class="hero-subtitulo">
+                    Bem-vindo a
+                </p>
+                <h1>
+                    ELYNDRA
+                </h1>
+
+                <p class="hero-texto">
+                    Um continente moldado por deuses, guerras e antigas magias. Explore sua história, conheça seus
+                    habitantes e desvende os mistérios de um mundo que ainda guarda segredos.
+                </p>
+
+                <a href="paginas/reinos.html" class="btn-principal">Explorar Mundo
+                    <i class="bi bi-arrow-right"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Explorar Elyndra-->
+        <section class="explorar">
+            <!--Cabeçalho da seção-->
+            <div class="titulo-secao">
+                <p>DESCUBRA O UNIVERSO</p>
+                <h2>Explorar Elyndra</h2>
+                <span></span>
+            </div>
+
+            <div class="explorar-grid">
+                
+                <!--  História  -->
+                <a href="paginas/historia.html" class="explorar-card">
+                    <div class="explorar-imagem">
+                        <img src="imgs/banners/banner-historia.png" alt="História de Elyndra">
+                    </div>
+                    <div class="explorar-conteudo">
+                        <h3>História</h3>
+                        <p>Conheça os acontecimentos, guerras, eras e segredos que moldaram Elyndra.</p>
+                        <span>
+                            Explorar <i class="bi bi-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+
+                <!--  Personagens  -->
+                <a href="paginas/personagens.html" class="explorar-card">
+                    <div class="explorar-imagem">
+                        <img src="imgs/banners/banner-personagens.jpeg" alt="Personagens">
+                    </div>
+                    <div class="explorar-conteudo">
+                        <h3>Personagens</h3>
+                        <p>Descubra os heróis, vilões e figuras que fazem parte desta história.</p>
+                        <span>
+                            Explorar <i class="bi bi-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+
+                <!--  Reinos  -->
+                <a href="paginas/reinos.html" class="explorar-card">
+                    <div class="explorar-imagem">
+                        <img src="imgs/banners/banner-reinos.png" alt="Reinos">
+                    </div>
+                    <div class="explorar-conteudo">
+                        <h3>Reinos</h3>
+                        <p>Explore os grandes reinos e descubra suas histórias e culturas.</p>
+                        <span>
+                            Explorar <i class="bi bi-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+
+                <!--  Criaturas  -->
+                <a href="paginas/criaturas.html" class="explorar-card">
+                    <div class="explorar-imagem">
+                        <img src="imgs/banners/banner-criaturas.jpeg" alt="Criaturas">
+                    </div>
+                    <div class="explorar-conteudo">
+                        <h3>Criaturas</h3>
+                        <p>Conheça as criaturas que habitam os territórios de Elyndra.</p>
+                        <span>
+                            Explorar <i class="bi bi-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+
+                <!--  Religião  -->
+                  <a href="paginas/religiao.html" class="explorar-card">
+                    <div class="explorar-imagem">
+                        <img src="imgs/banners/banner-religiao.png" alt="Religião">
+                    </div>
+                    <div class="explorar-conteudo">
+                        <h3>Religião</h3>
+                        <p>Conheça as crenças, cultos e tradições que moldam os povos de Elyndra.</p>
+                        <span>
+                        Explore <i class="bi bi-arrow-right"></i>
+                    </span>
+                    </div>
+                  </a>
+
+                <!--  Deuses  -->
+                <a href="paginas/deuses.html" class="explorar-card">
+                    <div class="explorar-imagem">
+                        <img src="imgs/banners/banner-deuses.jpeg" alt="Deuses">
+                    </div>
+                    <div class="explorar-conteudo">
+                        <h3>Deuses</h3>
+                        <p>Descubra os deuses e entidades que moldaram o mundo e influenciam seus habitantes.</p>
+                        <span>
+                            Explorar <i class="bi bi-arrow-right"></i>
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+        </section>
+    </main>
+    <!--JavaScript-->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
