@@ -494,7 +494,7 @@ header {
 }
 
 .historia-banner-conteudo .subtitulo {
-    color: var(--primary);
+    color: var(--primary-dark);
 }
 
 .historia-banner h1 {
@@ -531,7 +531,21 @@ header {
 .historia-capitulo {
     padding: 100px 10%;
 }
+.capitulo-imagem{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.capitulo-imagem img{
+     object-fit: cover;
+     width: 100%;
+     display: block;
 
+}
 .capitulo-texto {
     max-width: 850px;
     margin: 0 auto;
