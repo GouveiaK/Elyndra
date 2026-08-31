@@ -471,43 +471,43 @@ header {
 
 
 
-/*   História   */
-.historia-banner {
+
+/*   PÁGINAS  BANNER  */
+.paginas-banner {
     padding: 120px 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 720px;
-    background-image: linear-gradient(to top,
-            var(--hero-overlay),
-            rgba(0, 0, 0, 0.473) 100%),
-        url(../imgs/banners/banner-historia.png);
+    min-height: calc(100vh - 80px);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.historia-banner-conteudo {
+.paginas-banner-conteudo {
     max-width: 800px;
     margin: 0 auto;
 }
 
-.historia-banner-conteudo .subtitulo {
-    color: var(--primary-dark);
+.paginas-banner-conteudo .subtitulo {
+    color: var(--primary-hover);
 }
 
-.historia-banner h1 {
+.paginas-banner h1 {
     font-size: clamp(2.5rem, 6vw, 5rem);
     margin: 15px 0 25px;
 }
 
-.historia-banner-conteudo>p:not(.subtitulo) {
+.paginas-banner-conteudo>p:not(.subtitulo) {
     color: var(--text-secondary);
     font-size: 1.1rem;
     line-height: 1.7;
 }
 
+
+
+/*   História   */
 .historia-introducao {
     padding: 100px 10%;
 }
@@ -531,26 +531,46 @@ header {
 .historia-capitulo {
     padding: 100px 10%;
 }
-.capitulo-imagem{
-    width: 100%;
-    height: 220px;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    margin-top: 20px;
-    overflow: hidden;
-}
-.capitulo-imagem img{
-     object-fit: cover;
-     width: 100%;
-     display: block;
 
+.capitulo-imagem {
+    max-width: 850px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
 }
+
+.capitulo-imagem img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
+.capitulo-imagem h3 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-top: 20px;
+}
+
+.capitulo-imagem p {
+    color: var(--primary);
+    font-size: 0.85rem;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.capitulo-imagem span {
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: var(--primary);
+    margin: 0 auto;
+}
+
 .capitulo-texto {
     max-width: 850px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .capitulo-numero {
@@ -565,8 +585,131 @@ header {
     margin-bottom: 30px;
 }
 
-.letra-inicial {
+.letraInicial {
     font-size: 1.8rem;
     color: var(--primary);
     font-style: normal;
+}
+
+.capituloNarrativa {
+    max-width: 850px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 50px;
+}
+
+.capituloNarrativa p {
+    line-height: 1.5;
+    color: var(--text-secondary);
+}
+
+.ataivismo-texto {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    max-width: 90%;
+    padding: 10px;
+    border: 1px solid var(--border);
+}
+
+.ataivismo-texto h6 {
+    text-align: end;
+    color: var(--primary);
+}
+
+
+/*   História   */
+.historia-banner {
+    background-image: linear-gradient(to top,
+            var(--hero-overlay),
+            rgba(0, 0, 0, 0.473) 100%),
+        url(../imgs/banners/banner-historia.png);
+}
+
+/*  Personagens  */
+.personagens-banner {
+    background-image: linear-gradient(to top,
+            var(--hero-overlay),
+            rgba(0, 0, 0, 0.473) 100%),
+        url(../imgs/banners/banner-personagens.jpeg);
+}
+.personagens{
+    padding: 100px 10%;
+}
+.personagens-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.personagem-card{
+    background-color: var(--card);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition:  transform 0.3s ease;
+    border: 1px solid var(--border);
+}
+.personagem-card:hover{
+    transform: translateY(-8px);
+}
+.personagem-card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+.personagem-card:hover img{
+    transform: scale(1.05);
+}
+.personagem-conteudo{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.personagem-conteudo h3{
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+}
+.personagem-conteudo p{
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.personagem-conteudo a{
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+/*  Reinos  */
+.reinos-banner {
+    background-image: linear-gradient(to top,
+            var(--hero-overlay),
+            rgba(0, 0, 0, 0.473) 100%),
+        url(../imgs/banners/banner-reinos.png);
+}
+
+
+
+/*   Criaturas   */
+.criaturas-banner {
+    background-image: linear-gradient(to top,
+            var(--hero-overlay),
+            rgba(0, 0, 0, 0.473) 100%),
+        url(../imgs/banners/banner-criaturas.jpeg);
+}
+
+
+/*   Deuses   */
+.deuses-banner{
+    background-image: linear-gradient(
+        to top,
+        var(--hero-overlay),
+        rgba(0, 0, 0, 0.473) 100%),
+        url(../imgs/banners/banner-deuses.jpeg);
 }
