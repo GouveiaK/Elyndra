@@ -655,8 +655,10 @@ header {
 }
 .personagem-card video{
     width: 270px;
+    height: 100%;
     object-fit: cover;
     display: block;
+    transition: transform 0.5s ease;
 }
 .personagem-card:hover video{
     transform: scale(1.05);
@@ -671,7 +673,13 @@ header {
     font-size: 1.5rem;
     margin-bottom: 12px;
 }
-.personagem-conteudo p{
+.personagem-tipo{
+    color: var(--primary);
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+.personagem-conteudo p:not(.personagem-tipo){
     color: var(--text-secondary);
     line-height: 1.7;
     margin-bottom: 20px;
