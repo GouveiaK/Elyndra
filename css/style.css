@@ -640,28 +640,25 @@ header {
 }
 .personagens-grid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr;
     gap: 20px;
 }
 .personagem-card{
     background-color: var(--card);
     overflow: hidden;
     display: flex;
-    flex-direction: column;
-    transition:  transform 0.3s ease;
+    transition: transform 0.3s ease;
     border: 1px solid var(--border);
 }
 .personagem-card:hover{
     transform: translateY(-8px);
 }
-.personagem-card img{
-    width: 100%;
-    height: 350px;
+.personagem-card video{
+    width: 270px;
     object-fit: cover;
     display: block;
-    transition: transform 0.5s ease;
 }
-.personagem-card:hover img{
+.personagem-card:hover video{
     transform: scale(1.05);
 }
 .personagem-conteudo{
@@ -676,14 +673,8 @@ header {
 }
 .personagem-conteudo p{
     color: var(--text-secondary);
-    line-height: 1.6;
+    line-height: 1.7;
     margin-bottom: 20px;
-}
-.personagem-conteudo a{
-    color: var(--primary);
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: auto;
 }
 
 /*  Reinos  */

@@ -20,9 +20,18 @@
         gap: 15px;
         z-index: 10;
     }
-    .personagens-grid{
-        grid-template-columns: repeat(3, 1fr);
-    }
+   .personagens-grid {
+        grid-template-columns: repeat(2, 1fr);
+   }
+   .personagem-card{
+    flex-direction: column;
+   }
+   .personagem-card p{
+    line-height: 1.6;
+   }
+   .personagem-card video{
+    width: 100%;
+   }
 }
 
 @media (max-width: 950px){
@@ -33,9 +42,7 @@
     .destaques-grid{
         grid-template-columns: repeat(2, 1fr);
     }
-    .personagens-grid{
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
 }
 
 
@@ -88,5 +95,11 @@
     }
     .personagens-grid{
         grid-template-columns: 1fr;
+    }
+    .personagem-card video{
+        height: 40%;
+    }
+    .personagem-card{
+        height: calc(100% - 200px);
     }
 }
