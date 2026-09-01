@@ -1,0 +1,120 @@
+/*   História   */
+.historia-introducao {
+    padding: 100px 10%;
+}
+
+.historia-texto {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.historia-texto h2 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 25px;
+}
+
+.historia-texto>p:not(.subtitulo) {
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.historia-capitulo {
+    padding: 100px 10%;
+}
+
+.capitulo-imagem {
+    max-width: 850px;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.capitulo-imagem img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+}
+
+.capitulo-imagem h3 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-top: 20px;
+}
+
+.capitulo-imagem p {
+    color: var(--primary);
+    font-size: 0.85rem;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.capitulo-imagem span {
+    display: block;
+    width: 60px;
+    height: 2px;
+    background-color: var(--primary);
+    margin: 0 auto;
+}
+
+.capitulo-texto {
+    max-width: 850px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.capitulo-numero {
+    display: block;
+    color: var(--primary);
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.capitulo-texto h2 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 30px;
+}
+
+.letraInicial {
+    font-size: 1.8rem;
+    color: var(--primary);
+    font-style: normal;
+}
+
+.capituloNarrativa {
+    max-width: 850px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-bottom: 50px;
+}
+
+.capituloNarrativa p {
+    line-height: 1.5;
+    color: var(--text-secondary);
+}
+
+.ataivismo-texto {
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    max-width: 90%;
+    padding: 10px;
+    border: 1px solid var(--border);
+}
+
+.ataivismo-texto h6 {
+    text-align: end;
+    color: var(--primary);
+}
+
+
+/*   História   */
+.historia-banner {
+    background-image: linear-gradient(to top,
+            var(--hero-overlay),
+            rgba(0, 0, 0, 0.473) 100%),
+        url(../imgs/banners/banner-historia.png);
+}

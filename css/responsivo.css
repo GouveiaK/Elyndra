@@ -102,4 +102,7 @@
     .personagem-card{
         height: calc(100% - 120px);
     }
+    .reinos-grid{
+    grid-template-columns: 1fr;
+    }
 }
