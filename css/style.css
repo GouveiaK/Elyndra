@@ -929,7 +929,7 @@ header {
     transition: transform 0.3s ease;
     width: 80%;
 }
-.deuses-card video, img{
+.deuses-card video, .deuses-card img{
     width: 100%;
     height: 400px;
     display: block;
@@ -1075,9 +1075,6 @@ header {
     }
     .personagem-card video{
         height: 40%;
-    }
-    .personagem-card{
-        height: calc(100% - 50px);
     }
     .reinos-grid{
     grid-template-columns: 1fr;
