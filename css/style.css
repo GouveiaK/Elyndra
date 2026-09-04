@@ -652,15 +652,12 @@ header {
 }
 
 .capitulo-imagem {
-    max-width: 850px;
-    overflow: hidden;
-    margin: 0 auto;
-    text-align: center;
+    width: 100%;
 }
 
 .capitulo-imagem img {
-    object-fit: cover;
     width: 100%;
+    height: auto;
     display: block;
 }
 
@@ -1080,7 +1077,7 @@ header {
         height: 40%;
     }
     .personagem-card{
-        height: calc(100% - 120px);
+        height: calc(100% - 50px);
     }
     .reinos-grid{
     grid-template-columns: 1fr;
