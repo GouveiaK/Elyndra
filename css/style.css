@@ -993,7 +993,7 @@ header {
     width: 100%;
     margin-top: 50px;
 }
-.descricao-ataivista p{
+.definicao-tipo{
     font-size: 0.75rem;
     letter-spacing: 2px;
     color: var(--primary);
@@ -1032,7 +1032,9 @@ header {
 .definicao-ataivismo{
     border: none;
 }
-
+.texto-descricao, .texto-definicao p{
+    color: var(--text-secondary);
+}
 
 
 
