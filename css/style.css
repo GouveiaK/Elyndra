@@ -976,6 +976,64 @@ header {
             rgba(0, 0, 0, 0.473) 100%),
         url(../imgs/banners/banner-religiao.png);
 }
+.religiao{
+    padding: 100px 10%;
+}
+.religiao-conteudo-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.texto-left, .texto-right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.texto-descricao img{
+    width: 100%;
+    margin-top: 50px;
+}
+.descricao-ataivista p{
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    color: var(--primary);
+    margin-bottom: 8px;
+}
+.descricao-ataivista h2{
+    font-size: clamp(2rem, 5vw, 3.5rem);
+}
+.info-card{
+    border: 1px solid var(--border);
+    padding: 20px;
+     display: flex;
+    flex-direction: column;
+}
+.info-card span{
+    width: 60px;
+    height: 2px;
+    background-color: var(--primary);
+    margin: 0 auto;
+}
+.definicao-tipo{
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    color: var(--primary);
+}
+.definicao-ataivismo h2{
+    font-size: clamp(2rem, 5vw, 3.5rem);
+}
+.definicao-ataivismo span{
+    margin: 30px auto;
+}
+.definicao-ataivismo{
+    margin-bottom: 30px;
+}
+.definicao-ataivismo{
+    border: none;
+}
+
+
 
 
 /* RESPONSIVIDADE  */
@@ -1015,6 +1073,12 @@ header {
    .criaturas-grid{
     grid-template-columns: repeat(2, 1fr);
    }
+   .deuses-grid{
+        grid-template-columns: 1fr;
+    }
+    .religiao-conteudo-grid{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media (max-width: 950px){
@@ -1025,10 +1089,6 @@ header {
     .destaques-grid{
         grid-template-columns: repeat(2, 1fr);
     }
-    .deuses-grid{
-        grid-template-columns: 1fr;
-    }
-
 }
 
 
