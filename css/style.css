@@ -1089,6 +1089,9 @@ header {
     .destaques-grid{
         grid-template-columns: repeat(2, 1fr);
     }
+    .reinos-grid{
+    grid-template-columns: 1fr;
+    }
 }
 
 
@@ -1144,9 +1147,6 @@ header {
     }
     .personagem-card video{
         height: 40%;
-    }
-    .reinos-grid{
-    grid-template-columns: 1fr;
     }
     .criaturas-grid{
         grid-template-columns: 1fr;
