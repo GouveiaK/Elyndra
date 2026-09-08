@@ -25,6 +25,12 @@
     --hero-overlay: rgba(241, 241, 241, 0.726);
 }
 
+body.dark-mode > main{
+    background: url(../imgs/banners/--bg-escuro.png) center / contain;
+}
+main{
+     background: url(../imgs/banners/--bg-claro.jpeg) center / contain;
+}
 
 /*   TEMA ESCURO  */
 body.dark-mode {
@@ -37,7 +43,7 @@ body.dark-mode {
     --border: #2a3642;
 
     --text: #e8e6e1;
-    --text-secondary: #a7adb5;
+    --text-secondary: #d9dbdd;
 
     --primary: #c9a45c;
     --primary-hover: #e0c27a;
@@ -262,12 +268,15 @@ header {
 .explorar-card {
     display: flex;
     flex-direction: column;
-    background-color: var(--card);
-    border: 1px solid var(--border);
+    border-top: 1px solid #fffcf5;
+    border-left: 1px solid #fffcf5;
+    border-radius: 20px;
+    box-shadow: 3px 3px 15px black ;
     overflow: hidden;
     transition:
         transform 0.3s ease,
         border-color 0.3s ease;
+        backdrop-filter: blur(1px);
 }
 
 .explorar-imagem {
@@ -376,7 +385,7 @@ header {
 
 /*   DESTAQUES  */
 .destaques {
-    padding: 100px 10%;
+   padding: 5%;
 }
 
 .destaques-grid {
@@ -386,8 +395,11 @@ header {
 }
 
 .destaques-card {
-    background-color: var(--card);
-    border: 1px solid var(--border);
+    border-top: 1px solid var(--text-secondary);
+    border-left: 1px solid var(--text-secondary);
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+    box-shadow: 2px 2px 15px black;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -419,10 +431,18 @@ header {
 }
 
 .destaques-conteudo a {
-    color: var(--primary);
+    color: var(--bg);
     text-decoration: none;
     font-weight: bold;
     margin-top: auto;
+    padding: 10px 20px;
+    transition: transform 0.4s ease;
+    background-color: var(--primary);
+    align-self: flex-start;
+}
+.destaques-conteudo a:hover{
+    transform: translateY(-4px);
+    background-color: var(--primary-hover);
 }
 
 
@@ -760,11 +780,13 @@ header {
     gap: 20px;
 }
 .personagem-card{
-    background-color: var(--card);
     overflow: hidden;
     display: flex;
     transition: transform 0.3s ease;
-    border: 1px solid var(--border);
+    border: 2px solid var(--border);
+    box-shadow: 3px 3px 15px black;
+    backdrop-filter: blur(1px);
+    border-radius: 20px;
 }
 .personagem-card:hover{
     transform: translateY(-8px);
@@ -816,9 +838,12 @@ header {
     gap: 30px;
 }
 .reino-card{
-    background-color: var(--card);
+    border-left: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+    box-shadow: 5px 5px 15px var(--border);
     overflow: hidden;
-    border: 1px solid var(--border);
     transition: transform 0.3s ease;
 }
 .reino-card:hover{
@@ -870,10 +895,13 @@ header {
     gap: 30px;
 }
 .criatura-card{
-    background-color: var(--card);
+    border-left: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+    box-shadow: 5px 5px 15px var(--border);
     overflow: hidden;
     transition: transform 0.3s ease;
-    border: 1px solid var(--border);
 }
 .criatura-card img{
     width: 100%;
@@ -923,9 +951,12 @@ header {
     gap: 30px;
 }
 .deuses-card{
-    background-color: var(--card);
+    border-left: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+    box-shadow: 5px 5px 15px var(--border);
     overflow: hidden;
-    border: 1px solid var(--border);
     transition: transform 0.3s ease;
     width: 80%;
 }
@@ -1081,6 +1112,9 @@ header {
     .religiao-conteudo-grid{
         grid-template-columns: 1fr;
     }
+    .destaques-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 950px){
@@ -1088,9 +1122,7 @@ header {
     .explorar-grid{
         grid-template-columns: repeat(2, 1fr);
     }
-    .destaques-grid{
-        grid-template-columns: repeat(2, 1fr);
-    }
+    
     .reinos-grid{
     grid-template-columns: 1fr;
     }
