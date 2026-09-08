@@ -1188,4 +1188,10 @@ header {
     .deuses-card{
         width: 100%;
     }
+    body.dark-mode> main{
+        background: url(../imgs/banners/--bg-escuro-mobile.png) center/contain;
+    }
+    main{
+        background: url(../imgs/banners/--bg-claro-mobile.png)center/contain;
+    }
 }
