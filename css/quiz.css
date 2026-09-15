@@ -49,6 +49,7 @@ main {
 .quiz-inicio h1 {
     margin-bottom: 15px;
     font-size: 3rem;
+    color: var(--color);
 }
 
 .quiz-inicio p {
@@ -157,4 +158,7 @@ main {
     .quiz-topo {
         font-size: 0.85rem;
     }
+    #escolhaQuantidade button{
+    font-size: 0.85rem;
+}
 }
