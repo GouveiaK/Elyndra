@@ -1,0 +1,1146 @@
+[
+    {
+        "pergunta": "Qual é o nome do capítulo 1 da história de Elyndra?",
+        "respostas": [
+            "O Reino Perdido",
+            "Tecida com Sangue",
+            "A Guerra dos Deuses",
+            "O Legado de Elyn"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Como era a situação da humanidade nos tempos primordiais?",
+        "respostas": [
+            "Vivia em paz com todas as criaturas",
+            "Dominava todos os reinos",
+            "Vivia em meio ao caos e temia constantemente a morte",
+            "Era protegida por grandes muralhas"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual era considerado o maior inimigo da humanidade naquele período?",
+        "respostas": [
+            "A fome",
+            "As feras",
+            "A guerra entre os deuses",
+            "O constante temor da morte iminente"
+        ],
+        "correta": 3,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Onde os gigantes estavam adormecidos antes de se levantarem?",
+        "respostas": [
+            "Sob o Reino de Elyn",
+            "Sob a montanha de Shinvin",
+            "Sob os templos de Afra",
+            "Sob a cidade dos elyndrovianos"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Por que os gigantes marcharam contra a humanidade?",
+        "respostas": [
+            "Para proteger os humanos",
+            "Para encontrar as sete chaves",
+            "Movidos pela ambição, para reclamar as terras como suas",
+            "Para servir à deusa Afra"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual deusa ouviu uma das vozes que imploravam por socorro?",
+        "respostas": [
+            "Afra",
+            "Alenia",
+            "Cillia",
+            "Nídia"
+        ],
+        "correta": 0,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Afra é conhecida como a deusa de quê?",
+        "respostas": [
+            "Da guerra e da morte",
+            "Da esperança e da vitória",
+            "Da magia e do conhecimento",
+            "Da justiça e da prosperidade"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que Afra rasgou de suas vestes?",
+        "respostas": [
+            "Uma chave de bronze",
+            "Uma pétala dourada",
+            "Um pequeno fragmento do tecido divino",
+            "Um pedaço de sua coroa"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Como o fragmento das vestes de Afra chegou até a mortal?",
+        "respostas": [
+            "Foi levado pelo vento",
+            "Foi entregue por um soldado",
+            "Foi colocado em uma urna",
+            "Foi levado pelos gigantes"
+        ],
+        "correta": 0,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual aroma acompanhava o vento que trouxe o fragmento divino?",
+        "respostas": [
+            "Perfume de rosas",
+            "Perfume de lyscas",
+            "Perfume de flores",
+            "Perfume de gartemas"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que a mortal retirou da pequena bainha presa à cintura?",
+        "respostas": [
+            "Uma espada",
+            "Um punhal",
+            "Uma chave",
+            "Uma lança"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Para onde a mortal ergueu a mão ao realizar sua proclamação?",
+        "respostas": [
+            "Em direção à montanha",
+            "Em direção aos gigantes",
+            "Em direção aos céus",
+            "Em direção ao rei"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que a mortal fez com o punhal?",
+        "respostas": [
+            "Atacou um gigante",
+            "Passou a lâmina sobre a própria palma",
+            "Entregou-o a Kronis",
+            "Jogou-o no fogo"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que aconteceu com o sangue da mortal quando tocou o tecido divino?",
+        "respostas": [
+            "Desapareceu imediatamente",
+            "Transformou-se em delicados fios rubros",
+            "Tornou-se água",
+            "Transformou-se em ouro"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "O que os fios rubros começaram a formar sobre o tecido?",
+        "respostas": [
+            "Mapas dos reinos",
+            "Símbolos dos deuses",
+            "Figuras e acontecimentos",
+            "As sete chaves"
+        ],
+        "correta": 2,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "O que começou a acontecer com os gigantes enquanto a mulher tecia?",
+        "respostas": [
+            "Eles ficaram mais fortes",
+            "Começaram a fugir imediatamente",
+            "Começaram a tombar um após o outro",
+            "Começaram a adorar Afra"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "De quem era o sangue que passou a banhar a terra?",
+        "respostas": [
+            "Dos soldados",
+            "Dos deuses",
+            "Dos gigantes",
+            "Da rainha"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que aconteceu aos pés da montanha de Shinvin?",
+        "respostas": [
+            "Um templo surgiu",
+            "Uma enorme fenda abriu-se na rocha",
+            "Uma cidade foi destruída",
+            "A montanha desapareceu"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que os gigantes sobreviventes fizeram após a abertura da fenda?",
+        "respostas": [
+            "Atacaram o reino",
+            "Renderam-se aos humanos",
+            "Correram para a abertura para fugir",
+            "Subiram aos céus"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Onde os gigantes sobreviventes ficaram presos?",
+        "respostas": [
+            "Nas florestas de Elyndra",
+            "Nas profundezas da montanha",
+            "No Reino de Elyn",
+            "Em uma prisão construída pelos deuses"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quem era a mulher que clamou por misericórdia a Afra?",
+        "respostas": [
+            "Alenia Elyn",
+            "Cillia Elyn",
+            "Nídia Elyn",
+            "Uma sacerdotisa desconhecida"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual era a posição de Nídia Elyn?",
+        "respostas": [
+            "Sacerdotisa de Afra",
+            "Rainha de Elyndra",
+            "Princesa de Elyn",
+            "General dos gigantes"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem derrotou o maior dos gigantes?",
+        "respostas": [
+            "Nídia Elyn",
+            "Afra",
+            "Aurelian Elyn",
+            "Kronis Elyn"
+        ],
+        "correta": 3,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Como Kronis derrotou o maior dos gigantes?",
+        "respostas": [
+            "Com um único golpe de espada",
+            "Com ajuda de Afra",
+            "Com a tapeçaria",
+            "Com uma lança de bronze"
+        ],
+        "correta": 0,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "O que os homens fizeram após a vitória?",
+        "respostas": [
+            "Abandonaram Elyndra",
+            "Celebraram seu rei",
+            "Destruíram a montanha",
+            "Reuniram as sete chaves"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Como aquele lugar passou a ser conhecido após a vitória?",
+        "respostas": [
+            "Terra de Shinvin",
+            "Terra dos Gigantes",
+            "Terra de Elyn",
+            "Terra de Afra"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem Kronis acreditava ser responsável pela vitória?",
+        "respostas": [
+            "Apenas ele próprio",
+            "Afra",
+            "Nídia",
+            "Os gigantes sobreviventes"
+        ],
+        "correta": 0,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quem era a verdadeira responsável pela vitória?",
+        "respostas": [
+            "Afra",
+            "Nídia Elyn",
+            "Alenia Elyn",
+            "Cillia Elyn"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que Nídia percebeu sobre o fragmento das vestes de Afra?",
+        "respostas": [
+            "Que era apenas um pedaço comum de tecido",
+            "Que era uma chave",
+            "Que era um artefato de poder inimaginável",
+            "Que pertencia aos gigantes"
+        ],
+        "correta": 2,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Por que Nídia decidiu guardar o segredo sobre a tapeçaria?",
+        "respostas": [
+            "Porque queria usá-la para governar",
+            "Porque temia que caísse nas mãos erradas",
+            "Porque Kronis ordenou",
+            "Porque os deuses proibiram"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Qual passou a ser o objetivo de Nídia?",
+        "respostas": [
+            "Encontrar os gigantes",
+            "Encontrar as sete chaves",
+            "Proteger a tapeçaria sagrada",
+            "Destruir o Reino de Elyn"
+        ],
+        "correta": 2,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "O que surgiu no local onde antes havia um campo coberto de sangue?",
+        "respostas": [
+            "A montanha de Shinvin",
+            "O grandioso Reino de Elyn",
+            "Um templo de Afra",
+            "Uma prisão para os gigantes"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem passou a habitar o Reino de Elyn?",
+        "respostas": [
+            "A família real",
+            "Somente sacerdotes",
+            "Somente soldados",
+            "Os gigantes sobreviventes"
+        ],
+        "correta": 0,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Como Nídia preservou a tapeçaria?",
+        "respostas": [
+            "Envolveu-a em folhas de gartemas douradas",
+            "Guardou-a dentro da montanha",
+            "Queimou-a",
+            "Enterrou-a no campo de batalha"
+        ],
+        "correta": 0,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Dentro do que Nídia colocou a tapeçaria?",
+        "respostas": [
+            "Uma caixa de bronze",
+            "Uma urna de mármore branco",
+            "Um templo de pedra",
+            "Uma arca de madeira"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que Nídia utilizou para ocultar o aroma das vestes divinas?",
+        "respostas": [
+            "Folhas de gartemas",
+            "Pétalas de lyscas",
+            "Perfume de flores",
+            "Cinzas"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quantas fechaduras possuía a urna da tapeçaria?",
+        "respostas": [
+            "Cinco",
+            "Seis",
+            "Sete",
+            "Dez"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "De que material foram forjadas as sete chaves?",
+        "respostas": [
+            "Ferro",
+            "Ouro",
+            "Prata",
+            "Bronze"
+        ],
+        "correta": 3,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Onde as sete chaves foram espalhadas?",
+        "respostas": [
+            "Somente pelo Reino de Elyn",
+            "Pelos mais diversos povos de Elyndra",
+            "Dentro da montanha de Shinvin",
+            "Entre os deuses"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Qual era o objetivo de espalhar as sete chaves?",
+        "respostas": [
+            "Permitir que qualquer pessoa abrisse a urna",
+            "Garantir que ninguém pudesse reunir sozinho aquilo que Afra confiou aos mortais",
+            "Proteger os gigantes",
+            "Dar poder aos reis"
+        ],
+        "correta": 1,
+        "dificuldade": "dificil"
+    },
+    {
+        "pergunta": "A quem o segredo da tapeçaria era transmitido de geração em geração?",
+        "respostas": [
+            "A todos os reis",
+            "Aos sacerdotes de Afra",
+            "Apenas às herdeiras da Casa Elyn",
+            "Aos guerreiros de Elyn"
+        ],
+        "correta": 2,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Qual era o dever das rainhas da Casa Elyn em relação à tapeçaria?",
+        "respostas": [
+            "Usá-la em tempos de guerra",
+            "Proteger sua existência e garantir que as sete chaves jamais fossem reunidas",
+            "Destruí-la",
+            "Entregá-la aos reis"
+        ],
+        "correta": 1,
+        "dificuldade": "dificil"
+    },
+    {
+        "pergunta": "Quem foi a única pessoa que contemplou o presente concedido por Afra?",
+        "respostas": [
+            "Nídia Elyn, a Rainha Primária",
+            "Aurelian Elyn",
+            "Alenia Elyn",
+            "Cillia Elyn"
+        ],
+        "correta": 0,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Por quanto tempo a Casa Elyn conduziu seu povo com sabedoria, prosperidade e ordem?",
+        "respostas": [
+            "Setenta anos",
+            "Cem anos",
+            "Cento e setenta anos",
+            "Trezentos anos"
+        ],
+        "correta": 2,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quantos membros compunham a família real cento e setenta anos após a Guerra dos Gigantes?",
+        "respostas": [
+            "Três",
+            "Quatro",
+            "Cinco",
+            "Sete"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem era o soberano de Elyn cento e setenta anos após a Guerra dos Gigantes?",
+        "respostas": [
+            "Kronis Elyn",
+            "Aurelian Elyn",
+            "Narcis Elyn",
+            "Éder Elyn"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem era a guardiã do maior segredo da dinastia?",
+        "respostas": [
+            "Nídia Elyn",
+            "Alenia Elyn",
+            "Cillia Elyn",
+            "Afra"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem era o primogênito e herdeiro da coroa?",
+        "respostas": [
+            "Éder Elyn",
+            "Aurelian Elyn",
+            "Narcis Elyn",
+            "Kronis Elyn"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem era o segundo filho do casal real?",
+        "respostas": [
+            "Narcis Elyn",
+            "Éder Elyn",
+            "Cillia Elyn",
+            "Kronis Elyn"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem era a integrante mais jovem da família real?",
+        "respostas": [
+            "Alenia Elyn",
+            "Nídia Elyn",
+            "Cillia Elyn",
+            "Afra"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual objeto antigo fazia parte da rotina de Cillia desde muito pequena?",
+        "respostas": [
+            "Uma espada",
+            "Uma chave de bronze",
+            "Um punhal",
+            "Uma tapeçaria"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "O que Cillia ainda não compreendia sobre a chave que carregava?",
+        "respostas": [
+            "Seu valor financeiro",
+            "Seu verdadeiro significado",
+            "Quem a havia forjado",
+            "Onde ficava o Reino de Elyn"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Qual era a responsabilidade que Cillia ainda não sabia que carregava?",
+        "respostas": [
+            "Governar todos os reinos",
+            "Decidir o destino de toda Elyndra",
+            "Derrotar os gigantes",
+            "Proteger a montanha de Shinvin"
+        ],
+        "correta": 1,
+        "dificuldade": "dificil"
+    },
+    {
+        "pergunta": "Qual é o nome da referência religiosa citada na proclamação da mortal?",
+        "respostas": [
+            "Evangelho 6:12",
+            "Ataivismo 6:12",
+            "Crônicas de Elyn 6:12",
+            "Livro de Afra 6:12"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quem é a rainha soberana de Neros?",
+        "respostas": [
+            "Bluma",
+            "Nídia Elyn",
+            "Alenia Elyn",
+            "Namon"
+        ],
+        "correta": 0,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual é o título de Bluma?",
+        "respostas": [
+            "Rainha de Elyn",
+            "Rainha de Neros",
+            "Sacerdotisa de Gothin",
+            "Princesa de Dagma"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que Bluma guarda?",
+        "respostas": [
+            "A Grande Biblioteca",
+            "O Trono de Marfim",
+            "A montanha de Shinvin",
+            "As sete chaves"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual é o título de Bluma relacionado ao seu reino?",
+        "respostas": [
+            "Senhora das marés silenciosas",
+            "Senhora das Terras Frias",
+            "Senhora dos mortos",
+            "Senhora da ciência mágica"
+        ],
+        "correta": 0,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Como algumas pessoas consideram Bluma?",
+        "respostas": [
+            "Apenas uma guerreira",
+            "Tirana ou salvadora",
+            "Uma sacerdotisa ou princesa",
+            "Uma feiticeira ou dagmista"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que dizem sobre a beleza de Bluma?",
+        "respostas": [
+            "É comparada ao fogo de Gothin",
+            "É comparada ao brilho da lua sobre o mar",
+            "É comparada ao ouro de Elyn",
+            "É comparada às flores de Divis"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Onde Bluma governa?",
+        "respostas": [
+            "Neros",
+            "Elion",
+            "Gothin",
+            "Dagma"
+        ],
+        "correta": 0,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual templo continua tendo seus sinos ecoando pelas ruas de Neros?",
+        "respostas": [
+            "Templo de Afra",
+            "Templo de Orin",
+            "Templo de Dagma",
+            "Templo de Elyn"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quem é o atual representante de Elion?",
+        "respostas": [
+            "Radon de Elion",
+            "Saigon Sion",
+            "Demio",
+            "Kronis Elyn"
+        ],
+        "correta": 0,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem escolheu Radon para representar Elion?",
+        "respostas": [
+            "A família real",
+            "O Conselho dos Sábios",
+            "Os sacerdotes de Gothin",
+            "A rainha Bluma"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Através de que Radon lidera Elion?",
+        "respostas": [
+            "Da força militar",
+            "Da riqueza",
+            "Da sabedoria",
+            "Do medo"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual área de conhecimento mágico faz parte da liderança de Radon?",
+        "respostas": [
+            "Ciência mágica",
+            "Necromancia",
+            "Rituais de sangue",
+            "Magia das marés"
+        ],
+        "correta": 0,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "De qual linhagem Radon é descendente?",
+        "respostas": [
+            "Da linhagem de Marvario Sion",
+            "Da linhagem fundadora da Grande Biblioteca e Escola de Ciência Mágica",
+            "Da Casa Elyn",
+            "Da família de Gothin"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "A que Radon dedicou sua vida?",
+        "respostas": [
+            "À conquista dos reinos",
+            "Ao estudo, à preservação da história e ao bem-estar de seu povo",
+            "À guerra contra Neros",
+            "À procura dos mortos"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "O que aconteceu com a esposa de Radon?",
+        "respostas": [
+            "Foi coroada rainha",
+            "Desapareceu durante os ataques do Cavaleiro das Rosas",
+            "Tornou-se sacerdotisa",
+            "Fugiu para as Terras Baixas"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual é o nome da esposa desaparecida de Radon?",
+        "respostas": [
+            "Timia",
+            "Bluma",
+            "Rafinys",
+            "Nídia"
+        ],
+        "correta": 0,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Há quantos anos Timia desapareceu?",
+        "respostas": [
+            "Dois anos",
+            "Quatro anos",
+            "Seis anos",
+            "Dez anos"
+        ],
+        "correta": 2,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Durante quais ataques Timia desapareceu?",
+        "respostas": [
+            "Durante os ataques dos gigantes",
+            "Durante os ataques do Cavaleiro das Rosas",
+            "Durante a Guerra dos Deuses",
+            "Durante a Guerra de Shinvin"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Qual personagem deseja dominar a própria morte?",
+        "respostas": [
+            "Radon de Elion",
+            "Saigon Sion",
+            "Namon",
+            "O Cavaleiro das Rosas"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual é o título de Saigon Sion?",
+        "respostas": [
+            "Rei dos Mortos",
+            "Príncipe dos Mortos",
+            "Senhor de Neros",
+            "Cavaleiro da Destruição"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Onde Saigon Sion nasceu?",
+        "respostas": [
+            "Nas terras de Elyn",
+            "Nas Terras Frias",
+            "Em Neros",
+            "Em Elion"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "De qual linhagem Saigon Sion é herdeiro?",
+        "respostas": [
+            "Da Casa Elyn",
+            "Da linhagem de Marvario Sion",
+            "Da linhagem de Afra",
+            "Da linhagem de Orin"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "O que Saigon Sion transforma em exércitos?",
+        "respostas": [
+            "Criaturas",
+            "Cadáveres",
+            "Gigantes",
+            "Sacerdotes"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Como Saigon Sion conquistou seu lugar?",
+        "respostas": [
+            "Foi coroado por um rei",
+            "Foi abençoado por um deus",
+            "Tomou seu lugar pela força",
+            "Foi escolhido pelos sábios"
+        ],
+        "correta": 2,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quem coroou Saigon Sion?",
+        "respostas": [
+            "Um rei",
+            "Um deus",
+            "O Conselho dos Sábios",
+            "Ninguém"
+        ],
+        "correta": 3,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quem abençoou Saigon Sion?",
+        "respostas": [
+            "Afra",
+            "Gothin",
+            "Orin",
+            "Nenhum deus"
+        ],
+        "correta": 3,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "O que aparece caminhando atrás de Saigon Sion nas noites de névoa?",
+        "respostas": [
+            "Milhares de soldados vivos",
+            "Milhares de silhuetas de mortos",
+            "Criaturas aladas",
+            "Sacerdotes"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem é conhecido como Cavaleiro da Destruição e Terror?",
+        "respostas": [
+            "Saigon Sion",
+            "Radon de Elion",
+            "O Cavaleiro das Rosas",
+            "Namon"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Como é descrita a armadura do Cavaleiro das Rosas?",
+        "respostas": [
+            "Branca como a neve",
+            "Dourada como o sol",
+            "Negra como a noite",
+            "Vermelha como sangue"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que coroa o Cavaleiro das Rosas?",
+        "respostas": [
+            "Uma coroa de ouro",
+            "Rosas que sangram sem cessar",
+            "Uma coroa de bronze",
+            "Uma máscara de pedra"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O Cavaleiro das Rosas é descrito como um presságio de quê?",
+        "respostas": [
+            "Prosperidade",
+            "Vitória",
+            "Destruição",
+            "Esperança"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "O que acontecia com as aldeias por onde passava a montaria do Cavaleiro das Rosas?",
+        "respostas": [
+            "Eram protegidas",
+            "Eram reduzidas a cinzas",
+            "Eram reconstruídas",
+            "Eram transformadas em templos"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem foi capaz de deter a marcha do Cavaleiro das Rosas?",
+        "respostas": [
+            "Os reis",
+            "Os exércitos",
+            "Os sacerdotes",
+            "Nenhum deles"
+        ],
+        "correta": 3,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Por que o nome do Cavaleiro das Rosas é pronunciado em voz baixa?",
+        "respostas": [
+            "Por respeito",
+            "Por medo",
+            "Por tradição",
+            "Por devoção"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quem é a Sacerdotisa Suprema de Gothin?",
+        "respostas": [
+            "Namon",
+            "Bluma",
+            "Rafinys",
+            "Timia"
+        ],
+        "correta": 0,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual é a função religiosa de Namon?",
+        "respostas": [
+            "Guardiã das sete chaves",
+            "Guardiã dos antigos ritos de Dagma",
+            "Sacerdotisa de Afra",
+            "Guardiã da Grande Biblioteca"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Como Namon exerce seu governo?",
+        "respostas": [
+            "Através da força militar",
+            "Através da fé",
+            "Através da ciência",
+            "Através da riqueza"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual é a crença de Namon sobre a verdadeira medida de um indivíduo?",
+        "respostas": [
+            "A inteligência",
+            "A riqueza",
+            "A força",
+            "A linhagem"
+        ],
+        "correta": 2,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quem é filho de Namon?",
+        "respostas": [
+            "Narcis",
+            "Demio",
+            "Éder",
+            "Radon"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual é o título de Demio?",
+        "respostas": [
+            "Príncipe de Dagma",
+            "Príncipe de Neros",
+            "Rei de Gothin",
+            "Príncipe dos Mortos"
+        ],
+        "correta": 0,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Como Namon é vista por muitos?",
+        "respostas": [
+            "Temida por muitos e respeitada por quase todos",
+            "Amada por todos e temida por ninguém",
+            "Ignorada pelos habitantes",
+            "Desprezada pelos sacerdotes"
+        ],
+        "correta": 0,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quantos anos Rafinys tem?",
+        "respostas": [
+            "14 anos",
+            "15 anos",
+            "16 anos",
+            "18 anos"
+        ],
+        "correta": 2,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual é o dom de Rafinys?",
+        "respostas": [
+            "Controlar os mortos",
+            "Enxergar acontecimentos que ainda não aconteceram",
+            "Controlar as marés",
+            "Ler pensamentos"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Qual é a regra assustadora relacionada às visões de Rafinys?",
+        "respostas": [
+            "As visões nunca acontecem",
+            "O destino sempre encontra uma maneira de acontecer",
+            "Ela só consegue prever guerras",
+            "As visões só acontecem durante a noite"
+        ],
+        "correta": 1,
+        "dificuldade": "dificil"
+    },
+    {
+        "pergunta": "Onde Rafinys guarda seu diário secreto?",
+        "respostas": [
+            "Dentro da Grande Biblioteca",
+            "Entre as raízes de uma Salmita no quintal de sua casa",
+            "No Templo de Orin",
+            "Nas Terras Frias"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Como Rafinys foi chamada por algumas pessoas por causa de seu dom?",
+        "respostas": [
+            "Rainha e sacerdotisa",
+            "Louca, amaldiçoada e dagmista",
+            "Princesa e salvadora",
+            "Feiticeira e guerreira"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Onde Rafinys trabalha?",
+        "respostas": [
+            "Em uma biblioteca",
+            "Em uma floricultura da família",
+            "Em um templo",
+            "Em um castelo"
+        ],
+        "correta": 1,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Em qual local Rafinys trabalha?",
+        "respostas": [
+            "Porto de Divis",
+            "Reino de Elyn",
+            "Terras Frias",
+            "Neros"
+        ],
+        "correta": 0,
+        "dificuldade": "facil"
+    },
+    {
+        "pergunta": "Quais flores Rafinys vende na floricultura?",
+        "respostas": [
+            "Lyscas e gartemas",
+            "Glaquimas e pequenas coroas de Girimas",
+            "Rosas e Salmitas",
+            "Flores de Orin e Afra"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    },
+    {
+        "pergunta": "Quais perdas marcaram a vida de Rafinys?",
+        "respostas": [
+            "A perda de seu pai e de sua avó",
+            "A perda de sua mãe e de seu irmão",
+            "A perda de sua irmã e de seu marido",
+            "A perda de seus amigos"
+        ],
+        "correta": 1,
+        "dificuldade": "medio"
+    }
+]
