@@ -96,6 +96,7 @@ main {
 .quiz-pergunta h2 {
     font-size: 1.7rem;
     line-height: 1.4;
+    color: var(--color);
 }
 
 .quiz-respostas {
@@ -103,6 +104,7 @@ main {
     flex-direction: column;
     gap: 12px;
     margin-bottom: 25px;
+    
 }
 
 .resposta {
@@ -128,19 +130,21 @@ main {
 .quiz-resultado h2 {
     margin-bottom: 15px;
     font-size: 2rem;
+    color: var(--primary);
 }
 
 .quiz-resultado p {
     margin-bottom: 10px;
-    color: #bcbcc8;
+    color: var(--quiz-p);
 }
+
 
 #resultadoPontuacao {
     display: block;
     margin-bottom: 30px;
     font-size: 2.5rem;
+    color: var(--color);
 }
-
 @media (max-width: 600px) {
     .quiz {
         padding: 25px 20px;
