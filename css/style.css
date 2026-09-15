@@ -25,11 +25,12 @@
     --hero-overlay: rgba(241, 241, 241, 0.726);
 }
 
-body.dark-mode > main{
+body.dark-mode>main {
     background: url(../imgs/banners/--bg-escuro.png) center / contain;
 }
-main{
-     background: url(../imgs/banners/--bg-claro.jpeg) center / contain;
+
+main {
+    background: url(../imgs/banners/--bg-claro.jpeg) center / contain;
 }
 
 /*   TEMA ESCURO  */
@@ -271,12 +272,12 @@ header {
     border-top: 1px solid #fffcf5;
     border-left: 1px solid #fffcf5;
     border-radius: 20px;
-    box-shadow: 3px 3px 15px black ;
+    box-shadow: 3px 3px 15px black;
     overflow: hidden;
     transition:
         transform 0.3s ease,
         border-color 0.3s ease;
-        backdrop-filter: blur(1px);
+    backdrop-filter: blur(1px);
 }
 
 .explorar-imagem {
@@ -385,7 +386,7 @@ header {
 
 /*   DESTAQUES  */
 .destaques {
-   padding: 5%;
+    padding: 5%;
 }
 
 .destaques-grid {
@@ -440,7 +441,8 @@ header {
     background-color: var(--primary);
     align-self: flex-start;
 }
-.destaques-conteudo a:hover{
+
+.destaques-conteudo a:hover {
     transform: translateY(-4px);
     background-color: var(--primary-hover);
 }
@@ -647,6 +649,7 @@ header {
             rgba(0, 0, 0, 0.473) 100%),
         url(../imgs/banners/banner-historia.png);
 }
+
 .historia-introducao {
     padding: 100px 10%;
 }
@@ -771,15 +774,18 @@ header {
             rgba(0, 0, 0, 0.473) 100%),
         url(../imgs/banners/banner-personagens.jpeg);
 }
-.personagens{
+
+.personagens {
     padding: 100px 10%;
 }
-.personagens-grid{
+
+.personagens-grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
 }
-.personagem-card{
+
+.personagem-card {
     overflow: hidden;
     display: flex;
     transition: transform 0.3s ease;
@@ -788,35 +794,42 @@ header {
     backdrop-filter: blur(1px);
     border-radius: 20px;
 }
-.personagem-card:hover{
+
+.personagem-card:hover {
     transform: translateY(-8px);
 }
-.personagem-card video{
+
+.personagem-card video {
     width: 270px;
     object-fit: cover;
     display: block;
     transition: transform 0.5s ease;
 }
-.personagem-card:hover video{
+
+.personagem-card:hover video {
     transform: scale(1.05);
 }
-.personagem-conteudo{
+
+.personagem-conteudo {
     padding: 25px;
     display: flex;
     flex-direction: column;
     flex: 1;
 }
-.personagem-conteudo h3{
+
+.personagem-conteudo h3 {
     font-size: 1.5rem;
     margin-bottom: 12px;
 }
-.personagem-tipo{
+
+.personagem-tipo {
     color: var(--primary);
     font-size: 0.75rem;
     letter-spacing: 2px;
     margin-bottom: 8px;
 }
-.personagem-conteudo p:not(.personagem-tipo){
+
+.personagem-conteudo p:not(.personagem-tipo) {
     color: var(--text-secondary);
     line-height: 1.7;
     margin-bottom: 20px;
@@ -829,15 +842,18 @@ header {
             rgba(0, 0, 0, 0.473) 100%),
         url(../imgs/banners/banner-reinos.png);
 }
-.reinos{
+
+.reinos {
     padding: 100px 10%;
 }
-.reinos-grid{
+
+.reinos-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.reino-card{
+
+.reino-card {
     border-left: 1px solid var(--border);
     border-top: 1px solid var(--border);
     border-radius: 20px;
@@ -846,31 +862,38 @@ header {
     overflow: hidden;
     transition: transform 0.3s ease;
 }
-.reino-card:hover{
+
+.reino-card:hover {
     transform: translateY(-8px);
 }
-.reino-card img{
+
+.reino-card img {
     width: 100%;
     height: 350px;
     object-fit: cover;
     display: block;
     transition: transform 0.5s ease;
 }
-.reino-card:hover img{
+
+.reino-card:hover img {
     transform: scale(1.05);
 }
-.reino-conteudo{
+
+.reino-conteudo {
     padding: 25px;
 }
-.reino-conteudo h2{
+
+.reino-conteudo h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
 }
-.reino-conteudo > p:not(.subtitulo){
+
+.reino-conteudo>p:not(.subtitulo) {
     color: var(--text-secondary);
     line-height: 1.7;
 }
-.reino-conteudo .subtitulo{
+
+.reino-conteudo .subtitulo {
     color: var(--primary);
     font-size: 0.75rem;
     letter-spacing: 2px;
@@ -886,15 +909,18 @@ header {
             rgba(0, 0, 0, 0.473) 100%),
         url(../imgs/banners/banner-criaturas.jpeg);
 }
-.criaturas{
+
+.criaturas {
     padding: 100px 10%;
 }
-.criaturas-grid{
+
+.criaturas-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-.criatura-card{
+
+.criatura-card {
     border-left: 1px solid var(--border);
     border-top: 1px solid var(--border);
     border-radius: 20px;
@@ -903,54 +929,63 @@ header {
     overflow: hidden;
     transition: transform 0.3s ease;
 }
-.criatura-card img{
+
+.criatura-card img {
     width: 100%;
     height: 280px;
     object-fit: cover;
     display: block;
     transition: transform 0.5s ease;
 }
-.criatura-card:hover{
+
+.criatura-card:hover {
     transform: translateY(-8px);
 }
-.criatura-card:hover img{
+
+.criatura-card:hover img {
     transform: scale(1.05);
 }
-.criatura-conteudo{
+
+.criatura-conteudo {
     padding: 25px;
 }
-.criatura-tipo{
+
+.criatura-tipo {
     color: var(--primary);
     font-size: 0.75rem;
     letter-spacing: 2px;
     margin-bottom: 8px;
 }
-.criatura-conteudo h2{
+
+.criatura-conteudo h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
 }
-.criatura-conteudo > p:not(.criatura-tipo){
+
+.criatura-conteudo>p:not(.criatura-tipo) {
     color: var(--text-secondary);
     line-height: 1.7;
 }
 
 /*   Deuses   */
-.deuses-banner{
-    background-image: linear-gradient(
-        to top,
-        var(--hero-overlay),
-        rgba(0, 0, 0, 0.473) 100%),
+.deuses-banner {
+    background-image: linear-gradient(to top,
+            var(--hero-overlay),
+            rgba(0, 0, 0, 0.473) 100%),
         url(../imgs/banners/banner-deuses.jpeg);
 }
-.deuses{
+
+.deuses {
     padding: 100px 10%;
 }
-.deuses-grid{
+
+.deuses-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.deuses-card{
+
+.deuses-card {
     border-left: 1px solid var(--border);
     border-top: 1px solid var(--border);
     border-radius: 20px;
@@ -960,7 +995,9 @@ header {
     transition: transform 0.3s ease;
     width: 80%;
 }
-.deuses-card video, .deuses-card img{
+
+.deuses-card video,
+.deuses-card img {
     width: 100%;
     height: 400px;
     display: block;
@@ -968,30 +1005,37 @@ header {
     object-position: 0% 0%;
     transition: transform 0.5s ease;
 }
-.deuses-card:hover{
+
+.deuses-card:hover {
     transform: translateY(-8px);
 }
-.deuses-card:hover img{
+
+.deuses-card:hover img {
     transform: scale(1.05);
 }
-.deuses-conteudo{
+
+.deuses-conteudo {
     padding: 25px;
 }
-.deuses-conteudo .deuses-tipo{
+
+.deuses-conteudo .deuses-tipo {
     color: var(--primary);
     font-size: 0.75rem;
     letter-spacing: 2px;
     margin-bottom: 8px;
 }
-.deuses-conteudo h2{
+
+.deuses-conteudo h2 {
     font-size: 1.8rem;
     margin-bottom: 15px;
 }
-.deuses-conteudo > p:not(.deuses-tipo){
+
+.deuses-conteudo>p:not(.deuses-tipo) {
     color: var(--text-secondary);
     line-height: 1.7;
 }
-.deuses-conteudo span{
+
+.deuses-conteudo span {
     display: block;
     width: 60px;
     height: 2px;
@@ -1007,64 +1051,84 @@ header {
             rgba(0, 0, 0, 0.473) 100%),
         url(../imgs/banners/banner-religiao.png);
 }
-.religiao{
+
+.religiao {
     padding: 100px 10%;
 }
-.religiao-conteudo-grid{
+
+.religiao-conteudo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
 }
-.texto-left, .texto-right{
+
+.texto-left,
+.texto-right {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.texto-descricao img{
+
+.texto-descricao img {
     width: 100%;
     margin-top: 50px;
 }
-.definicao-tipo{
+
+.definicao-tipo {
     font-size: 0.75rem;
     letter-spacing: 2px;
     color: var(--primary);
     margin-bottom: 8px;
 }
-.descricao-ataivista h2{
+
+.descricao-ataivista h2 {
     font-size: clamp(2rem, 5vw, 3.5rem);
 }
-.info-card{
+
+.info-card {
     border: 1px solid var(--border);
     padding: 20px;
-     display: flex;
+    display: flex;
     flex-direction: column;
 }
-.info-card span{
+
+.info-card span {
     width: 60px;
     height: 2px;
     background-color: var(--primary);
     margin: 0 auto;
 }
-.definicao-tipo{
+
+.definicao-tipo {
     font-size: 0.75rem;
     letter-spacing: 2px;
     margin-bottom: 8px;
     color: var(--primary);
 }
-.definicao-ataivismo h2{
+
+.definicao-ataivismo h2 {
     font-size: clamp(2rem, 5vw, 3.5rem);
 }
-.definicao-ataivismo span{
+
+.definicao-ataivismo span {
     margin: 30px auto;
 }
-.definicao-ataivismo{
+
+.definicao-ataivismo {
     margin-bottom: 30px;
 }
-.definicao-ataivismo{
+
+.definicao-ataivismo {
     border: none;
 }
-.texto-descricao, .texto-definicao p{
+
+.texto-descricao,
+.texto-definicao p {
     color: var(--text-secondary);
+}
+
+.informacoes {
+    display: none;
 }
 
 
@@ -1072,14 +1136,17 @@ header {
 /* RESPONSIVIDADE  */
 
 @media (max-width: 1000px) {
+
     /* Menu Mobile */
-    .menu{
+    .menu {
         display: none;
     }
-    #btnMenu{
+
+    #btnMenu {
         display: block;
     }
-    .menu.ativo{
+
+    .menu.ativo {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -1091,108 +1158,288 @@ header {
         gap: 15px;
         z-index: 10;
     }
-   .personagens-grid {
+
+    .personagens-grid {
         grid-template-columns: repeat(2, 1fr);
-   }
-   .personagem-card{
-    flex-direction: column;
-   }
-   .personagem-card p{
-    line-height: 1.6;
-   }
-   .personagem-card video{
-    width: 100%;
-   }
-   .criaturas-grid{
-    grid-template-columns: repeat(2, 1fr);
-   }
-   .deuses-grid{
+    }
+
+    .personagem-card {
+        flex-direction: column;
+    }
+
+    .personagem-card p {
+        line-height: 1.6;
+    }
+
+    .personagem-card video {
+        width: 100%;
+    }
+
+    .criaturas-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .deuses-grid {
         grid-template-columns: 1fr;
     }
-    .religiao-conteudo-grid{
+
+    .religiao-conteudo-grid {
         grid-template-columns: 1fr;
     }
-    .destaques-grid{
+
+    .destaques-grid {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
-@media (max-width: 950px){
+@media (max-width: 950px) {
+
     /* Cards passam para 2 colunas */
-    .explorar-grid{
+    .explorar-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-    
-    .reinos-grid{
-    grid-template-columns: 1fr;
+
+    .reinos-grid {
+        grid-template-columns: 1fr;
     }
-     body.dark-mode> main{
+
+    body.dark-mode>main {
         background: url(../imgs/banners/--bg-escuro-mobile.png) center/contain;
     }
-    main{
+
+    main {
         background: url(../imgs/banners/--bg-claro-mobile.png)center/contain;
     }
 }
 
 
-@media (max-width: 676px){
+@media (max-width: 676px) {
+
     /* Cards passam para 1 coluna  */
-    .explorar-grid{
+    .explorar-grid {
         grid-template-columns: 1fr;
     }
-    .explorar{
+
+    .explorar {
         padding: 70px 5%;
     }
-    .titulo-secao{
+
+    .titulo-secao {
         margin-bottom: 40px;
     }
-    .sobre{
+
+    .sobre {
         flex-direction: column;
         gap: 40px;
         padding: 70px 5%;
     }
-    .destaques-grid{
+
+    .destaques-grid {
         grid-template-columns: 1fr;
     }
-    .hero{
+
+    .hero {
         background-image:
-    linear-gradient(
-        to top,
-        var(--hero-overlay),
-        rgba(0, 0, 0, 0.021) 200%
-    ),
-    url(../imgs/banners/banner-principal.png);
-    background-size: cover;
-    background-position: 10% 100%;
-    background-repeat: no-repeat;
+            linear-gradient(to top,
+                var(--hero-overlay),
+                rgba(0, 0, 0, 0.021) 200%),
+            url(../imgs/banners/banner-principal.png);
+        background-size: cover;
+        background-position: 10% 100%;
+        background-repeat: no-repeat;
     }
-    .hero-subtitulo{
+
+    .hero-subtitulo {
         font-size: 1.2rem;
-        
+
     }
-    .hero-texto{
+
+    .hero-texto {
         color: var(--text);
     }
-    .historia-banner{
+
+    .historia-banner {
         padding: 80px 5%;
     }
-    .historia-banner-conteudo{
+
+    .historia-banner-conteudo {
         margin-bottom: -300px;
     }
-    .capituloNarrativa{
+
+    .capituloNarrativa {
         grid-template-columns: 1fr;
     }
-    .personagens-grid{
+
+    .personagens-grid {
         grid-template-columns: 1fr;
     }
-    .personagem-card video{
+
+    .personagem-card video {
         height: 40%;
     }
-    .criaturas-grid{
+
+    .criaturas-grid {
         grid-template-columns: 1fr;
     }
-    .deuses-card{
+    .personagem-conteudo{
+        display: block;
+    }
+    .criatura-conteudo{
+        height: 0;
+        overflow: hidden;
+        opacity: 0;
+        padding: 0;
+        transition:
+            height 0.5s ease,
+            opacity 1.3s ease,
+            padding 0.5s ease;
+    }
+
+    .criatura-conteudo.aberto{
+        opacity: 1;
+        padding: 25px;
+        max-height: 800px;
+        height: fit-content;
+    }
+    .personagem-conteudo, .deuses-conteudo{
+        height: 0;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        padding: 0;
+        flex: 0 0 0;
+        transition:
+            height 0.5s ease,
+            max-height 0.5s ease,
+            opacity 0.5s ease,
+            padding 0.5s ease;
+    }
+    .personagem-conteudo.aberto, .deuses-conteudo.aberto{
+        height: auto;
+        max-height: 1200px;
+        opacity: 1;
+        padding: 25px;
+        flex: 0 0 auto;
+    }
+    .personagem-card video{
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+    }
+    .deuses-card {
         width: 100%;
     }
-   
+
+    .informacoes {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacoes p {
+        color: var(--primary);
+        letter-spacing: 1px;
+        font-size: 0.95rem;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .informacoes span {
+        display: flex;
+        font-size: 2.5rem;
+        animation: spanCriatura 1s infinite ease;
+    }
+
+    @keyframes spanCriatura {
+        0% {
+            transform: translateY(-5px);
+        }
+
+        50% {
+            transform: translateY(5px);
+        }
+
+        100% {
+            transform: translateY(-5px);
+        }
+    }
+
+    .paginas-banner {
+        background: var(--bg);
+        position: relative;
+        padding: 0 10%;
+        min-height: calc(80vh - 80px);
+    }
+
+    .paginas-banner-conteudo {
+        position: absolute;
+        top: 100px;
+        padding-inline: 30px;
+    }
+
+    .img-banner-criaturas {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 300px;
+        background-image: linear-gradient(to bottom,
+                var(--bg),
+                rgba(0, 0, 0, 0.178) 50%),
+            url(../imgs/banners/banner-criaturas.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .img-banner {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 300px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .img-banner-criaturas {
+        background-image: linear-gradient(to bottom,
+                var(--bg),
+                rgba(0, 0, 0, 0.178) 50%),
+            url(../imgs/banners/banner-criaturas.jpeg);
+    }
+
+    .img-banner-deuses {
+        background-image: linear-gradient(to bottom,
+                var(--bg),
+                rgba(0, 0, 0, 0.178) 50%),
+            url(../imgs/banners/banner-deuses.jpeg);
+    }
+
+    .img-banner-historia {
+        background-image: linear-gradient(to bottom,
+                var(--bg),
+                rgba(0, 0, 0, 0.178) 50%),
+            url(../imgs/banners/banner-historia.png);
+    }
+
+    .img-banner-personagens {
+        background-image: linear-gradient(to bottom,
+                var(--bg),
+                rgba(0, 0, 0, 0.178) 50%),
+            url(../imgs/banners/banner-personagens.jpeg);
+    }
+
+    .img-banner-reinos {
+        background-image: linear-gradient(to bottom,
+                var(--bg),
+                rgba(0, 0, 0, 0.178) 50%),
+            url(../imgs/banners/banner-reinos.png);
+    }
+
+    .img-banner-religiao {
+        background-image: linear-gradient(to bottom,
+                var(--bg),
+                rgba(0, 0, 0, 0.178) 50%),
+            url(../imgs/banners/banner-religiao.png);
+    }
 }

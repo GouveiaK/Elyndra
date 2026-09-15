@@ -48,3 +48,28 @@ linksMenu.forEach(function(link){
     });
 });
 
+const cards = document.querySelectorAll('.criatura-card');
+
+cards.forEach(card => {
+    card.addEventListener('click', ()=>{
+        const conteudo = card.querySelector('.criatura-conteudo');
+        conteudo.classList.toggle('aberto');
+    });
+});
+
+const cardsPerson = document.querySelectorAll('.personagem-card');
+
+cardsPerson.forEach(card => {
+    card.addEventListener('click', ()=> {
+        const conteudo = card.querySelector('.personagem-conteudo');
+        conteudo.classList.toggle('aberto');
+    });
+});
+
+const cardsDeuses = document.querySelectorAll('.deuses-card');
+cardsDeuses.forEach(card => {
+    card.addEventListener('click', ()=>{
+        const conteudo = card.querySelector('.deuses-conteudo');
+        conteudo.classList.toggle('aberto');
+    })
+});
