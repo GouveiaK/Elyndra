@@ -58,8 +58,12 @@ main {
     line-height: 1.6;
 }
 
-button {
-    border: none;
+#btnIniciar,
+#btnProxima,
+#btnReiniciar {
+    background: #fff;
+    color: #101016;
+     border: none;
     border-radius: 10px;
     padding: 14px 22px;
     font-size: 1rem;
@@ -67,18 +71,14 @@ button {
     cursor: pointer;
     transition: transform 0.2s ease, opacity 0.2s ease;
 }
-
-button:hover {
+#btnIniciar, #btnProximo, #btnReiniciar :hover {
     transform: translateY(-2px);
 }
-
-#btnIniciar,
-#btnProxima,
-#btnReiniciar {
-    background: #fff;
-    color: #101016;
+#escolhaQuantidade button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
 }
-
 .quiz-topo {
     display: flex;
     justify-content: space-between;
@@ -109,11 +109,15 @@ button:hover {
     text-align: left;
     background: #22222d;
     color: #fff;
+    padding: 10px;
     border: 1px solid #353542;
+    transition: transform 0.3s ease;
 }
+
 
 .resposta:hover {
     background: #2b2b38;
+    transform: translateY(-2px);
 }
 
 .quiz-resultado {
@@ -137,10 +141,6 @@ button:hover {
 }
 
 @media (max-width: 600px) {
-    body {
-        padding: 15px;
-    }
-
     .quiz {
         padding: 25px 20px;
         border-radius: 15px;
